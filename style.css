@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 4.5vmax;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  background: radial-gradient(circle, rgba(6,116,183,1) 0%, rgba(66,192,203,1) 100%);
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar h3 {
+  color: white;
+  font-size: 2.4vmax;
+  margin-left: 9vmax;
+}
+
+.navbar-list {
+  display: flex;
+  margin: 0.8vmax 0 0;
+  margin-right: 9vmax;
+}
+
+.navbar-list a {
+  margin-left: 2vmax;
+  font-size: 1vmax;
+  color: white;
+  padding-bottom: 1.4vmax;
+  transition: all 0.1s linear;
+}
+
+.navbar-list a:hover {
+  border-bottom: 0.2vmax solid white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(0px);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+  position: absolute;
+}
+
+.hero-header {
+  text-align: center;
+  width: 60%;
+  position: relative;
+  bottom: 44%;
+  margin: 0 auto;
+  font-size: 5vmax;
+  color: white;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.hero-src {
+  width: fit-content;
+  color: white;
+  position: relative;
+  left: 2%;
+  bottom: 2%;
+  font-size: 1vmax;
+}
+
+.content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.card-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 0.3vmax;
+}
+
+.content h2 {
+  color: #0674b7;
+  font-size: 3vmax;
+  margin-bottom: 1vmax;
+}
+
+.content h3 {
+  color: #42c0cb;
+  font-size: 2vmax;
+}
+
+.content h4 {
+  font-size: 1.4vmax;
+}
+
+.content p, li {
+  font-size: 1vmax;
+  text-align: justify;
+}
+
+.content ol {
+  margin-top: 0.4vmax;
+  margin-left: 1.2vmax;
+}
+
+.sub-content {
+  padding-top: 5vmax;
+}
+
+.macam-zakat {
+  margin: 0.6vmax 0 0.4vmax;
+}
+
+.macam-zakat-item h4 {
+  margin-bottom: 0.3vmax;
+}
+
+.first {
+  margin-top: 4vmax;
+}
+
+.sub-content-hikmah {
+  width: 74%;
+}
+
+.last-content {
+  margin-bottom: 5vmax;
+}
+
+.footer {
+  background: radial-gradient(circle, rgba(6,116,183,1) 0%, rgba(66,192,203,1) 100%);
+  color: white;
+}
+
+.footer-list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vmax 38vmax;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list p {
+  font-size: 1.2vmax;
+  margin-bottom: 0.6vmax;
+}
+
+.footer-list a {
+  color: white;
+  font-size: 1vmax;
+  margin: 0.1vmax 0;
+}
+
+.id {
+  margin: 0 auto;
+  padding-bottom: 2vmax;
+  font-size: 1vmax;
+  width: fit-content;
+  text-align: center;
+}
